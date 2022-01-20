@@ -19,7 +19,7 @@
     "react-scripts": "^4.0.1"
   },
   "scripts": {
-    "start": "cross-env react-app-rewired start",
+    "start": "node server/server.js",
     "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
