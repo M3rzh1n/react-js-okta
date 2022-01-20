@@ -10,8 +10,8 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-const CLIENT_ID = process.env.CLIENT_ID || '{clientId}';
-const ISSUER = process.env.ISSUER || 'https://{yourOktaDomain}.com';
+const CLIENT_ID = process.env.CLIENT_ID 
+const ISSUER = process.env.ISSUER 
 const OKTA_TESTING_DISABLEHTTPSCHECK = process.env.OKTA_TESTING_DISABLEHTTPSCHECK || false;
 const BASENAME = process.env.PUBLIC_URL || '';
 const REDIRECT_URI = `${window.location.origin}${BASENAME}/login/callback`;
